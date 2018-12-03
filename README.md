@@ -1,3 +1,3 @@
 # test_pipeline
 
-test job
+test job pipeline
