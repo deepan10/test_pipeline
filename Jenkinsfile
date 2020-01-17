@@ -12,6 +12,7 @@ pipeline {
     stage('GIT') {
       steps {
         echo getGitBranchName()
+          echo "${env.GIT_BRANCH}"
       }
     }
   }
