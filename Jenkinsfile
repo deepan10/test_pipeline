@@ -14,7 +14,7 @@ pipeline {
         echo getGitBranchName()
           echo "${env.GIT_BRANCH}"
           echo "${env.GIT_LOCAL_BRANCH}"
-          
+          echo "${env}"
       }
     }
   }
