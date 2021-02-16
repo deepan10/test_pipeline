@@ -9,7 +9,7 @@ pipeline {
         sh 'echo "Stage1 - Build"'
       }
     }
-    stage('GIT') {
+    stage('GIT TEST') {
       steps {
         echo getGitBranchName()
       }
